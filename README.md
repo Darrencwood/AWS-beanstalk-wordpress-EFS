@@ -13,6 +13,7 @@ It also creates a cron job to run the EFS mount script every 5 minutes to check 
 I have included the sample wp-config.php file which also has the SSL checks in it a calls the keys file for the salt configs as beanstalk variables.
 
 How to;
+
 1.	Download wordpress https://wordpress.org/latest.zip and extract the .zip to a folder 
 2.	Create a new .ebextensions folder in the root of the extracted wordpress install zip
 3.	Add these files to a new .ebextensions folder in the root of the woordpress install .zip
